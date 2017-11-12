@@ -1,0 +1,25 @@
+#on peut fonctionner uniquement par listes et dictionnaires
+"""planning_enseignant=list()
+planning_groupe=list()
+planning_salle=liste()
+dictionnaire_planning = dict()
+dictionnaire_planning["Enseignant"]=planning_enseignant
+dictionnaire_planning["Groupe"]=planning_groupe
+dictionnaire_planning["Salle"]=planning_salle"""
+
+class planning :                    #possible de créer une classe planning pour nos 3 plannings différents
+                                    
+    """contient :
+    - le nom de la personne dont c'est le planning
+    - le nom du planning
+    - les horaires 0,1,2,3,4
+    - les jours
+    - les disponibilités"""
+    def _init_(self):
+        self.nom=nom
+        self.horaires=[0,1,2,3,4]
+        self.disponibilités_lundi=horaires
+        self.disponibilités_mardi=horaires
+        self.disponibilités_mercredi=horaires
+        self.disponibilités_jeudi=horaires
+        self.disponibilités_vendredi=horaires
